@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Manage Landing Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+      <!-- flex-container -->
+      <div class="flex items-center justify-between">
+        <!-- logo -->
+        <div class="pt-2">
+          <img src="img/logo.svg" alt="" />
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden md:flex space-x-6">
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
+        <!-- Button -->
+        <a
+          href=""
+          class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight"
+          >Get Started</a
+        >
+        <!-- End Menu Items -->
+
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <!-- end flex container -->
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+          <a href="#">Pricing</a>
+          <a href="#">Products</a>
+          <a href="#">About Us</a>
+          <a href="#">careers</a>
+          <a href="#">Community</a>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Hero Section -->
+    <section id="hero">
+      <!-- flex-container -->
+      <div
+        class="container mx-auto flex flex-col-reverse md:flex-row items-center px-6 mt-10 space-y-0 md:space-y-0">
+        <!-- Left Item -->
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+          <h1
+            class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+            Bring everyone together to build better products
+          </h1>
+          <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+            Manage makes it simple for software teams to plan day-today tasks
+            while keeping the larger team goals in view
+          </p>
+          <div class="flex justify-center md:justify-start">
+            <a
+              href=""
+              class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight"
+              >Get Started</a
+            >
+          </div>
+        </div>
+        <!-- Image -->
+        <div class="md:w-1/2">
+          <img src="img/illustration-intro.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Feature Section -->
+    <section id="features">
+      <div
+        class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+        <!-- What Different -->
+        <div class="flex flex-col space-y-12 md:w-1/2">
+          <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+            What's different about Manage?
+          </h2>
+          <p class="max-w-md text-center text-darkGrayishBlue md:text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            officiis alias placeat ullam illum corporis sint voluptate cumque
+            tempore temporibus?
+          </p>
+        </div>
+
+        <!-- Numbered List -->
+        <div class="flex flex-col space-y-8 md:w-1/2">
+          <!-- Number 01 -->
+          <div
+            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+            <!-- Heading -->
+            <div class="rounded-full bg-brigthRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+                  01
+                </div>
+                <h3 class="text-base font-bold md:mb-4 md:hidden">
+                  Track company-wide progress
+                </h3>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Track company-wide progress
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dolores, maiores beatae asperiores odit laudantium laborum quam.
+                Nam dolore quaerat reprehenderit.
+              </p>
+            </div>
+          </div>
+
+          <!-- Number 02 -->
+          <div
+            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+            <!-- Heading -->
+            <div class="rounded-full bg-brigthRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+                  02
+                </div>
+                <h3 class="text-base font-bold md:mb-4 md:hidden">
+                  Advance built-in reports
+                </h3>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Advance built-in reports
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatibus ratione deleniti nemo, cumque dolore adipisci.
+              </p>
+            </div>
+          </div>
+          <!-- Number 03 -->
+          <div
+            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+            <!-- Heading -->
+            <div class="rounded-full bg-brigthRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+                  03
+                </div>
+                <h3 class="text-base font-bold md:mb-4 md:hidden">
+                  Everything you need in one place
+                </h3>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Everything you need in one place
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                similique commodi, culpa non hic earum ea iste harum dignissimos
+                totam aut fuga? Voluptas labore nisi magni, nobis architecto
+                aspernatur voluptatem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Feature Section -->
+
+    <!-- Feature Section -->
+    <section id="testimonials">
+      <!-- Container to heading and testimonial -->
+      <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+        <!-- Heading -->
+        <h2 class="text-4xl font-bold text-center">
+          What's Different About Manage?
+        </h2>
+        <!-- Testimonial Container -->
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+          <!-- Testimonial 1 -->
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3">
+            <img src="img/avatar-anisha.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold">Anisha Li</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Doloribus saepe quia obcaecati. Iusto, voluptate quidem.
+            </p>
+          </div>
+          <!-- Testimonial 2 -->
+          <div
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3">
+            <img src="img/avatar-ali.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold">Ali Bravo</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              blanditiis ullam officiis, assumenda repellat ratione a
+              repudiandae asperiores, eveniet laborum in sapiente voluptas cum
+              temporibus vero non. Accusantium, dolor ab.
+            </p>
+          </div>
+          <!-- Testimonial 3 -->
+          <div
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3">
+            <img src="img/avatar-richard.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold">Richard Doyle</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptatum deserunt quibusdam ea mollitia iusto accusantium
+              dolores tempora assumenda, animi rerum sunt, vero tempore
+              repellendus nostrum consequatur enim excepturi dolor et delectus
+              cum. Quo ipsa possimus amet consequuntur repudiandae nesciunt
+              animi?
+            </p>
+          </div>
+        </div>
+        <!-- Button -->
+        <div class="my-16">
+          <a
+            href=""
+            class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- End Feature Section -->
+
+    <!-- CTA Section -->
+    <section id="cta" class="bg-brightRed">
+      <!-- Flex Container -->
+      <div
+        class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+        <!-- Heading -->
+        <h2
+          class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left">
+          Simplify how your team works today
+        </h2>
+        <!-- Button -->
+        <div>
+          <a
+            href=""
+            class="p-3 px-6 pt-2 text-brightRed bg-white shadow-2xl rounded-full self-baseline hover:bg-gray-300"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-veryDarkBlue">
+      <!-- flex Container -->
+      <div
+        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+        <!-- Logo and social links container -->
+        <div
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+          <div class="mx-auto my-6 text-center text-white md:hidden">
+            Copyright &copy; 2022, All Rights Reserved
+          </div>
+          <!-- Logo -->
+          <div>
+            <img src="img/logo-white.svg" class="h-8" alt="" />
+          </div>
+          <!-- Social Links -->
+          <div class="flex justify-center space-x-4">
+            <!-- Link 1 -->
+            <a href="#">
+              <img src="img/icon-facebook.svg" class="h-8" alt="" />
+            </a>
+            <!-- Link 2 -->
+            <a href="#">
+              <img src="img/icon-youtube.svg" class="h-8" alt="" />
+            </a>
+            <!-- Link 3 -->
+            <a href="#">
+              <img src="img/icon-twitter.svg" class="h-8" alt="" />
+            </a>
+            <!-- Link 4 -->
+            <a href="#">
+              <img src="img/icon-pinterest.svg" class="h-8" alt="" />
+            </a>
+            <!-- Link 5 -->
+            <a href="#">
+              <img src="img/icon-instagram.svg" class="h-8" alt="" />
+            </a>
+          </div>
+        </div>
+        <!-- List Container -->
+        <div class="flex justify-around space-x-32">
+          <div
+            class="flex flex-col space-y-3 text-white text-center md:text-left">
+            <a href="" class="hover:text-brightRed">Home</a>
+            <a href="" class="hover:text-brightRed">Pricing</a>
+            <a href="" class="hover:text-brightRed">Products</a>
+            <a href="" class="hover:text-brightRed">About</a>
+          </div>
+        </div>
+        <div class="flex justify-around space-x-32">
+          <div
+            class="flex flex-col space-y-3 text-white text-center md:text-left">
+            <a href="" class="hover:text-brightRed">Careers</a>
+            <a href="" class="hover:text-brightRed">Community</a>
+            <a href="" class="hover:text-brightRed">Privacy Policy</a>
+          </div>
+        </div>
+
+        <!-- Input Container -->
+        <div class="flex flex-col justify-between">
+          <form>
+            <div class="flex space-x-3">
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-full focus:outline-none"
+                placeholder="Updated in your inbox" />
+              <button
+                class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">
+                Go
+              </button>
+            </div>
+          </form>
+          <div class="hidden text-white md:block">
+            Copyright &copy; 2022, All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
